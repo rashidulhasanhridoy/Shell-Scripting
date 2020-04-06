@@ -1,0 +1,11 @@
+#!/bin/bash
+echo Enter a number:
+read n
+for (( i=2; i<=n/2; i++ ))
+{
+	if [ $((n%i)) -eq 0 ]; then
+		echo It is not an prime number.
+		exit
+	fi
+}
+echo It is a prime number.

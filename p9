@@ -1,0 +1,12 @@
+#!/bin/bash
+echo Enter three numbers:
+read one two three
+if [ $one == $two ] && [ $two == $three ]; then
+	echo all are equal.
+elif [ $one -ge $two ] && [ $one -ge $three ] ; then
+	echo $one is large.
+elif [ $two -ge $one ] && [ $two -ge $three ] ; then
+	echo $two is large.
+else
+	echo $three is large.
+fi

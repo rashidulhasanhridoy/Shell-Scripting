@@ -1,0 +1,11 @@
+#!/bin/bash
+for (( c=1; c>=1; c++))
+{
+	d1=$(($c+1))
+	d2=$(($c*$d1))
+	d3=$(($d2/2))
+	echo $d3
+	if [ $d3 -eq 21 ]; then
+		break
+	fi
+}

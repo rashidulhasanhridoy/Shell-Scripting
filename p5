@@ -1,0 +1,8 @@
+#!/bin/bash
+echo Enter the dividend:
+read num1
+echo Enter the divisor:
+read num2
+r1=$((num1/num2))
+r2=$((num1%num2))
+echo Quotient is $r1 and remainder is $r2.

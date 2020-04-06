@@ -1,0 +1,8 @@
+#!/bin/bash
+for (( c=1; c<=100; c++ ))
+{
+	d=$((c%2))
+	if [ $d -eq 0 ]; then
+		echo $c
+	fi
+}

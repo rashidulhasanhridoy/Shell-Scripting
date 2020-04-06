@@ -1,0 +1,10 @@
+#!/bin/bash
+echo Enter a character:
+read char
+if [ $char \> "A" ] && [ $char \< "Z" ]; then
+	echo $char is an alphabet.
+elif [ $char \> "a" ] && [ $char \< "z" ]; then
+	echo $char is an alphabet.
+else
+	echo $char is not an alphabet.
+fi

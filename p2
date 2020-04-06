@@ -1,0 +1,4 @@
+#!/bin/bash
+echo Enter a integer number:
+read num
+echo You have entered $num.
